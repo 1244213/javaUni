@@ -1,0 +1,23 @@
+public class Cast {
+	public static void main(String[] args) 
+	{
+		int m = 2000000000;
+		System.out.println(m);
+		
+		int n = 2000000000;
+		System.out.println(n);
+		
+		//1)int i = m * n / m; ["OVERFLOW" valore troppo grande per int]
+		
+		//2)long i = ((long) m) * n /m; [i di tipo long e usare il cast a long]
+		
+		/*3)long m = 2000000000, n = 200000000;
+		int i = (int)(m * n /m);*/
+		//[Dichiarare solo m, n di tipo long e usare il cast a int]
+		
+		//4)aggiungo le parentesi:
+		int i = m * (n / m);
+		
+		System.out.println(i);
+	}
+}
