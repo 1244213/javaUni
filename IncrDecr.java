@@ -18,7 +18,7 @@ public class IncrDecr {
         System.out.println(j); //stampa 4
 
         System.out.println(++j); //stampa 5
-
-
+        
     }
+    
 }
