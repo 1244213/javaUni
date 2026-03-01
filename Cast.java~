@@ -1,5 +1,4 @@
-//CAST
-public class FloatingPoint_1 {
+public class Cast {
 	public static void main(String[] args) 
 	{
 		int m = 2000000000;

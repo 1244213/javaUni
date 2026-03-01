@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class esempio{
+
+    public static void main(String[] args) {
+
+        double base, altezza, area;
+
+        System.out.print("Inserisci la base: ");
+        Scanner scan = new Scanner(System.in);
+
+        base = scan.nextDouble();
+
+        altezza = 12.0;
+
+        area = base * altezza / 2;
+
+        System.out.println("Area = " + area);
+
+    }
+}
