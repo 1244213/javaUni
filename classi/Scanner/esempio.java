@@ -4,10 +4,11 @@ public class esempio{
 
     public static void main(String[] args) {
 
+        Scanner scan = new Scanner(System.in);
+
         double base, altezza, area;
 
         System.out.print("Inserisci la base: ");
-        Scanner scan = new Scanner(System.in);
 
         base = scan.nextDouble();
 
