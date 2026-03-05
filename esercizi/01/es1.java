@@ -29,9 +29,8 @@ public class es1{
 
         area = (baseMinore + baseMaggiore) * altezza / 2;
 
-        System.out.println("Area trapezio = " + area);
+        System.out.println("Area trapezio = " + area);  
 
     }
-
 
 }
