@@ -16,8 +16,15 @@ public class es5{
         String stringa;
 
         System.out.print("Inserisci una stringa: ");
-        stringa = scan.nextString();
+        stringa = scan.nextLine();
 
-        
+        System.out.print("\"");
+        System.out.print(stringa);
+        System.out.println("\"");
+
+        System.out.print("\"");
+        System.out.print(stringa.substring(stringa.indexOf(stringa.trim())));
+        System.out.println("\"");
+
     }
 }
