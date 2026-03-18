@@ -2,7 +2,7 @@ public class operazioni_math{
 
     public static void main(String[] args) {
 
-        int x = 4, y = 2;
+        int x = -16, y = 2;
 
         // RADICE QUADRATA
         System.out.println(Math.sqrt(x));
@@ -24,6 +24,9 @@ public class operazioni_math{
 
         // LOGARITMO NATURALE
         System.out.println(Math.log(x));
+
+        // VALORE ASSOLUTO
+        System.out.println(Math.abs(x));
 
     }
 }
