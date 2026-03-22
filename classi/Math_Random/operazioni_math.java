@@ -28,5 +28,8 @@ public class operazioni_math{
         // VALORE ASSOLUTO
         System.out.println(Math.abs(x));
 
+        //  VALORE SUCCESSIVO
+        System.out.println((int)Math.nextUp(x));
+
     }
 }
