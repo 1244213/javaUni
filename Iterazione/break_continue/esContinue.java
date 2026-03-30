@@ -10,3 +10,5 @@ public class esContinue {
         System.out.println("Fine");
     }
 }
+/* Se i = 5, si passa direttamente alla iterazione
+successiva, dopo aver incrementato */
