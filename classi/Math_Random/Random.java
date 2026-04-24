@@ -9,7 +9,7 @@ public class Random {
     System.out.println( (int)(Math.random() * 10) );
     // intero casuale tra 0 e 9
 
-    System.out.println( 2 + (int)z(Math.random() * 5));
+    System.out.println( 2 + (int)(Math.random() * 5));
     // intero casuale tra 2 e 6 [a, a+b-1] 
 
     }
